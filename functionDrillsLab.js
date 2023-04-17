@@ -247,8 +247,8 @@ const thatsOdd = function(anyNumber){
     we would expect the function to return 'Sharknado is the best movie ever!'
 */
 
-//CODE HERE
-
+const bestMovie = movieTitle => {return movieTitle + ' is the best movie ever!'}
+console.log(bestMovie('princessBride'))
 
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
