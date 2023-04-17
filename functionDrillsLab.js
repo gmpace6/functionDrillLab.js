@@ -226,7 +226,15 @@ printAllNames(namesArr)
   Outside the function, create a variable called `oddChecker` and set it equal to your function invoked, making sure to pass in an argument.
 */
 
-//CODE HERE
+const thatsOdd = function(anyNumber){
+  if(anyNumber % 2 === 0){
+    return `That's not odd!`
+  } else {
+    return 'That is odd indeed!'
+  }
+  }
+  const oddChecker = thatsOdd(9)
+  console.log(oddChecker)
 
 
 ////////////////// PROBLEM 14 ////////////////////
