@@ -251,7 +251,7 @@ const bestMovie = movieTitle => {return movieTitle + ' is the best movie ever!'}
 console.log(bestMovie('princessBride'))
 
 ////////////////// PROBLEM 15 ////////////////////
-let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
+let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107]
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr',  which will be an array of numbers. 
   Inside of the bigOrSmall function, create a new array called 'answers'. 
@@ -261,7 +261,7 @@ let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
   Return the answers array inside of the function to a variable called `arrayEvaluator`.
 */
 
-//CODE HERE
+const bigOrSmall = bigOrSmallArray => {return bigOrSmallArray}
 
 
 ////////////////// PROBLEM 16 ////////////////////
