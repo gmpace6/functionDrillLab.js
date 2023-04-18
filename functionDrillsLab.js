@@ -261,23 +261,24 @@ let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107]
   Return the answers array inside of the function to a variable called `arrayEvaluator`.
 */
 
-const bigOrSmall = function(bigOrSmallArray){
-  for(let i=0; i<bigOrSmallArray.length; i++)
-  if([i]>100, )
-  return bigOrSmallArray
+
+
+const bigOrSmall = function(arr){
+  let answers = []
+  for(let i=0; i<arr.length; i++){
+    if(arr[i]>100){
+      answers.push('big')
+    } else {
+      answers.push('small')
+    }
+  }
+  return answers
 }
-console.log(bigOrSmall)
 
+console.log(bigOrSmall(bigOrSmallArray))
 
-const thatsOdd = function(anyNumber){
-  if(anyNumber % 2 === 0){
-    return `That's not odd!`
-  } else {
-    return 'That is odd indeed!'
-  }
-  }
-  const oddChecker = thatsOdd(9)
-  console.log(oddChecker)
+console.log(bigOrSmall([1, 2, 3]))
+
 
 
 ////////////////// PROBLEM 16 ////////////////////
@@ -340,14 +341,14 @@ const isAscending = (arr) =>
 
 ////////////////// PROBLEM 22 ////////////////////
 
-let duck = "cute";
+// let duck = "cute";
 
-function bathroom() {
-  let rubberDuck = "squeaky";
-  function bathtub() {
-    let sailorDuck = "nautical";
-  }
-}
+// function bathroom() {
+//   let rubberDuck = "squeaky";
+//   function bathtub() {
+//     let sailorDuck = "nautical";
+//   }
+// }
 
 function pond() {
   let realDuck = "fluffy";
