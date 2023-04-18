@@ -261,7 +261,23 @@ let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107]
   Return the answers array inside of the function to a variable called `arrayEvaluator`.
 */
 
-const bigOrSmall = bigOrSmallArray => {return bigOrSmallArray}
+const bigOrSmall = function(bigOrSmallArray){
+  for(let i=0; i<bigOrSmallArray.length; i++)
+  if([i]>100, )
+  return bigOrSmallArray
+}
+console.log(bigOrSmall)
+
+
+const thatsOdd = function(anyNumber){
+  if(anyNumber % 2 === 0){
+    return `That's not odd!`
+  } else {
+    return 'That is odd indeed!'
+  }
+  }
+  const oddChecker = thatsOdd(9)
+  console.log(oddChecker)
 
 
 ////////////////// PROBLEM 16 ////////////////////
